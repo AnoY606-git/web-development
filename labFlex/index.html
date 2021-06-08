@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Profile</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style_flex.css">
+</head>
+<body class="body">
+	<header class="header">
+		<nav class="header__menu">
+			<a href="#about" class="menu__link menu__link_about">			
+				<span class="">Обо мне</span>
+			</a>
+			<a href="#hobby" class="menu__link menu__link_hobby">				
+				<span class="">Мое хобби</span>
+			</a>
+			<a href="#favorite-films" class="menu__link menu__link_films">				
+				<span class="">Любимые фильмы</span>
+			</a>
+		</nav>
+	</header>	
+	<div class="bio">
+		<div class="bio__shell" id="about">
+			<div class="shell__left-part">
+				<div class="left-part__photo"></div>	
+				<div class="left-part__interests">
+					<h3 class="interests__title interests__title_writers"> 
+						Любимые писатели:
+					</h3>		
+					<ul class="interests__list interests__list_writers">  
+						<li class="list__line">Айзек Азимов</li>
+						<li class="list__line">Говард Лавкрафт</li>
+						<li class="list__line">Дмитрий Глуховский</li>
+						<li class="list__line">Чак Паланик</li>
+					</ul>			
+					<h3 class="interests__title interests__title_films">
+						Любимые фильмы:
+					</h3>		
+					<ol class="interests__list interests__list_films">
+						<li class="list__line">Шоу Трумэна</li>
+						<li class="list__line">Малхолланд Драйв</li>
+						<li class="list__line">Семь жизней</li>
+						<li class="list__line">Гравитация</li>
+					</ol>
+				</div>						
+			</div>				
+			<div class="shell__right-part">
+				<div class="right-part__quote-box">
+						
+					<div class="quote-box__text">
+						Мы берем на себя много, потому что<br>
+						мало чего боимся
+					</div>
+					<div class="quote-box__copyright">
+						— Том Демарко. Deadline
+					</div>
+				</div>
+				<div class="right-part__text">
+					<h1 class="text__name">
+						Jane Doe
+					</h1>
+					<span class="text__stripe"></span>
+					<p class="text text__paragraph">
+						В 1930-е годы прошлого века физик Джордж Гамоу из<br>
+						университета штата Колорадо начал публиковать<br> 
+						мини-сериал рассказов о неком мистере Томпкинсе,<br> 
+						банковском клерке средних лет. Мистер Томпкинс, как<br>
+						явствовало из этих историй, интересовался современной<br> 
+						наукой. 
+					</p>
+					<h2 class="text__title-hobby" id="hobby">
+						Мое хобби
+					</h2>
+					<p class="text text__hobby">
+						Он регулярно посещал вечерние лекции местного профессора<br>
+						и, разумеется, всегда засыпал на самом интересном месте.<br> 
+						А когда просыпался, то обнаруживал себя в каком-нибудь<br>
+						параллельном мире, где один из основных законов физики<br>
+						действовал не так, как в его мире. 
+					</p>
+					<a class="text text__link-box" href="https://github.com/">
+						<span class="link-box__link">Напиши мне</span>
+						<span class="link-box__arrow">→</span>
+					</a>		
+					
+				</div>       
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>	
+	<div class="movies-container">
+		<h3 class="movies-container__title" id="favorite-films">Любимые фильмы</h3>
+		<div class="movies-container__cards cards">
+			<div class="cards__movie movie">
+				<img class="movie__image" src="images/movie_one.png">
+				<h3 class="movie__name ">Побег из Шоушенка</h3>
+				<p class="movie__description">
+					Успешный банкир Энди Дюфрейн обвинен в убийстве собственной жены и ее любовника.
+           		 	Оказавшись в тюрьме под названием Шоушенк, он сталкивается с жестокостью и
+            		беззаконием, царящими по обе стороны решетки. Каждый, кто попадает в эти стены,
+            		становится их рабом до конца жизни. Но Энди, вооруженный живым умом и доброй душой,
+            		отказывается мириться с приговором судьбы и начинает разрабатывать невероятно дерзкий
+            		план своего освобождения.
+				</p>
+			</div>
+			<div class="cards__movie movie">
+				<img class="movie__image" src="images/movie_two.png">
+				<h3 class="movie__name">Наркоз</h3>
+				<p class="movie__description">
+					Клай Бересфорд вынужден лечь под нож. Однако в процессе операции на сердце он неожиданно
+            		приходит в себя. Находясь в парализованном состоянии, будучи не в силах пошевелить ни рукой,
+            		ни ногой, он, тем не менее, чувствует каждое касание скальпеля к своей плоти…
+				</p>
+			</div>
+			<div class="cards__movie movie">
+				<img class="movie__image" src="images/movie_three.png">
+				<h3 class="movie__name ">Астрал</h3>
+				<p class="movie__description">
+					Джош и Рене переезжают со своими детьми в новый дом, но не успевают толком распаковать вещи,
+            		как начинаются странные события. Необъяснимо перемещаются предметы, в детской звучат странные звуки…
+            		Но в настоящий ужас приходят родители, когда их десятилетний сын Далтон впадает в кому.
+            		Все усилия врачей в больнице помочь мальчику безуспешны.
+				</p>
+			</div>
+			<div class="cards__movie movie">
+				<img class="movie__image" src="images/movie_four.png">
+				<h3 class="movie__name">Гравитация</h3>
+				<p class="movie__description">
+					Доктор Райан Стоун, блестящий специалист в области медицинского инжиниринга, отправляется в свою первую
+            		космическую миссию под командованием ветерана астронавтики Мэтта Ковальски, для которого этот полет —
+            		последний перед отставкой. Но во время, казалось бы, рутинной работы за бортом случается катастрофа.<br/>
+            		Шаттл уничтожен, а Стоун и Ковальски остаются совершенно одни; они находятся в связке друг с другом, и все,
+            		что они могут, — это двигаться по орбите в абсолютно черном пространстве без всякой связи с Землей и
+					какой-либо надежды на спасение.
+				</p>
+			</div>
+		</div>
+		<a class="movies-container__link" href="https://hd.kinopoisk.ru/">Все фильмы</a>	
+	</div>	
+	<div class="form-wrapper">
+        <div class="form-wrapper__title">
+            <hr class="title__line">
+            <div class="title__text">
+                НАПИШИ МНЕ
+            </div>
+            <hr class="title__line">
+        </div>
+        <form class="form-wrapper__form" action="#">
+            <div class="form__fields">
+                <ul class="fields__list">
+                    <li class="list__item list__item_name">
+                        <label class="label label_name" for="name">Ваше имя</label>
+                        <input class="item__field" type="text" id="name">
+                    </li>
+                    <li class="list__item list__item_email">
+                        <label class="label label_email" for="mail">Ваш email</label>
+                        <input class="item__field" type="text" id="mail">
+                    </li>
+                    <li class="list__select">
+                        <label class="label label_select" for="country">Откуда вы?</label>
+                        <select class="select__country" id="country">
+                            <option class="country__option" value="Russia">Россия</option>
+                            <option class="country__option" value="USA">США</option>
+                            <option class="country__option" value="China">Китай</option>
+                        </select>
+                    </li>
+                    <li class="list__radio">
+                        <label class="label label_radio" for="">Ваш пол</label>
+                        <div class="radio__wrapper">
+                            <input class="gender__item" type="radio" id="male" name="gender" value="male">
+                            <label class="gender__item_info" for="male">Мужской</label>
+                            <input class="gender__item" type="radio" id="female" name="gender" value="female">
+                            <label class="gender__item_info" for="female">Женский</label>    
+                        </div>
+                    </li>
+                    <li class="list__textarea">
+                        <label class="label label_textarea" for="text">Ваше сообщение</label>
+                        <textarea class="textarea__field" id="text"></textarea>
+                    </li>
+                </ul>
+            </div>
+            <div class="form__button">
+                <input class="button__link" type="submit" value="Отправить">
+            </div>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="footer__text">
+            2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»
+        </div>
+    </footer>
+</body>
+</html>

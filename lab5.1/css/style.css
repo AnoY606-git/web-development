@@ -1,0 +1,138 @@
+.quote__img
+{
+    background-image: url(../images/quotes2.png);
+    background-size: auto;
+    width: 130px;
+    height: 87px;
+}
+
+.quote__citation
+{
+    font-size: 28px;
+    line-height: 42px;
+    font-family: "Georgia";
+    font-style: italic;
+    text-align: left;
+    color: #8c8c8c;
+}
+
+.quote__author
+{
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: 600;
+    text-align: left;
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: #333;
+}
+
+.middle__header
+{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    color: #333;
+    text-align: left;
+}
+
+.middle__rectangle-img
+{
+    background-image: url(../images/rectangle2.png);
+    width: 60px;
+    height: 6px;
+}
+
+.middle__description
+{
+    font-size: 19px;
+    font-family: "Georgia";
+    line-height: 32px;
+    text-align: left;
+    color: #666;
+}
+
+.hobby__subtitle
+{
+    font-size: 23px;
+    line-height: 42px;
+    font-weight: lighter;
+    font-family: "Open Sans";
+    color: #333;
+}
+
+.hobby__subtitle-description
+{
+    font-size: 19px;
+    line-height: 32px;
+    text-align: left;
+    font-family: "Georgia";
+    color: #555;
+}
+
+.profile-img
+{
+    background: url(../images/Jane2.png);
+    background-size: 100%;
+    width: 330px;
+    height: 350px;
+}
+
+.my-like-writer__subtitle
+{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Open Sans"; 
+    color: #15a98c;
+    line-height: 1.333;
+    text-align: left;  
+}
+
+.my-like-writer__subtitle-ul
+{
+    font-size: 19px;
+    line-height: 36px;
+    color: #555555;
+    font-family: "Georgia";
+    text-align: left;  
+}
+
+.my-like-movies__subtitle
+{
+    font-size: 24px;
+    line-height: 32px;
+    color: #15a98c;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: left;  
+}
+
+.my-like-movies__subtitle-ol
+{
+    font-size: 19px;
+    line-height: 36px;
+    color: #555555;
+    font-family: "Georgia";
+    text-align: left; 
+}
+
+.link-send-me
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: #15a98b;
+    font-family: "Georgia";
+    text-decoration: none;
+    text-align: left;
+}
+
+.link-send-me-decoration
+{
+    color: #15a98b;
+    text-decoration: underline;
+}
+
+.link-send-me::after
+{
+    content: "→ ";
+}
